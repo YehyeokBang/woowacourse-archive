@@ -24,6 +24,26 @@
       <td><a href="https://github.com/woowacourse/spring-roomescape-admin/pull/314">개인 미션 PR</a></td>
     </tr>
   </tbody>
+  <tbody>
+    <tr>
+      <td rowspan="2"><a href="#방탈출-사용자-예약">방탈출 사용자 예약</a></td>
+      <td rowspan="2">예외 처리, Interceptor, Argument Resolver</td>
+      <td><a href="https://github.com/woowacourse/spring-roomescape-member/pull/225">페어 미션 PR</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/woowacourse/spring-roomescape-member/pull/283">개인 미션 PR</a></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td rowspan="2"><a href="#방탈출-사용자-예약">방탈출 예약 대기</a></td>
+      <td rowspan="2">JPA 도입, 도메인 간 강결합</td>
+      <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/195">페어 미션 PR</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/261">개인 미션 PR</a></td>
+    </tr>
+  </tbody>
 </table>
 
 ## 방탈출 예약 관리
@@ -31,6 +51,20 @@
 - [add 메서드 결과 반환을 위한 재조회 필요성 검토](https://github.com/woowacourse/spring-roomescape-admin/pull/314#discussion_r2059550482)
 - [존재 여부 확인을 위한 쿼리 개선, EXISTS vs COUNT(\*), 인덱스](https://github.com/woowacourse/spring-roomescape-admin/pull/314#discussion_r2061297911)
 - [메서드의 원자적인 실행을 보장하기 위한 @Transactional](https://github.com/woowacourse/spring-roomescape-admin/pull/314#pullrequestreview-2795982141)
+
+## 방탈출 사용자 예약
+
+- [도메인 예외를 따로 추가한 이유](https://github.com/woowacourse/spring-roomescape-member/pull/225#discussion_r2072400381)
+- [한방 쿼리에 관하여](https://github.com/YehyeokBang/TIL/issues/3)
+- [도메인 객체에도 id가 존재하는 이유](https://github.com/woowacourse/spring-roomescape-member/pull/283#discussion_r2083520362)
+
+## 방탈출 예약 대기
+
+- [무조건 fetch join으로 다 가져오는 것이 좋을까?](https://github.com/woowacourse/spring-roomescape-waiting/pull/195#discussion_r2090449417)
+  - 도메인에 대한 이해와 규모에 관한 합의로 결정할 수 있다.
+- [XXService를 조회성과 명령성으로 분리](https://github.com/woowacourse/spring-roomescape-waiting/pull/261#discussion_r2100673968)
+- [복잡해지는 요구사항 속 도메인 간 강결합 해소](https://velog.io/@hyeok_1212/%EB%B3%B5%EC%9E%A1%ED%95%B4%EC%A7%80%EB%8A%94-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-%EC%86%8D-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%84-%EA%B0%95%EA%B2%B0%ED%95%A9)
+  - 이벤트 발행-수신 구조를 활용한 도메인 간 느슨한 결합
 
 # Level 1
 
