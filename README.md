@@ -36,7 +36,7 @@
   </tbody>
   <tbody>
     <tr>
-      <td rowspan="2"><a href="#방탈출-사용자-예약">방탈출 예약 대기</a></td>
+      <td rowspan="2"><a href="#방탈출-예약-대기">방탈출 예약 대기</a></td>
       <td rowspan="2">JPA 도입, 도메인 간 강결합</td>
       <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/195">페어 미션 PR</a></td>
     </tr>
