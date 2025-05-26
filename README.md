@@ -115,6 +115,8 @@
   </tbody>
 </table>
 
+- [Level 1 회고](https://velog.io/@hyeok_1212/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BD%94%EC%8A%A4-7%EA%B8%B0-%EB%A0%88%EB%B2%A81-%ED%9A%8C%EA%B3%A0)
+
 ## 로또
 
 - [인터페이스의 default 메서드와 구현체 검증 책임의 위치 고민](https://github.com/woowacourse/java-lotto/pull/621#discussion_r1958509135)
