@@ -44,6 +44,30 @@
       <td><a href="https://github.com/woowacourse/spring-roomescape-waiting/pull/261">개인 미션 PR</a></td>
     </tr>
   </tbody>
+  <tbody>
+    <tr>
+      <td rowspan="2"><a href="#방탈출-결제배포">방탈출 결제/배포</a></td>
+      <td rowspan="2">외부 API, 배포, 로깅</td>
+      <td><a href="https://github.com/woowacourse/spring-roomescape-payment/pull/169">페어 미션 PR</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/woowacourse/spring-roomescape-payment/pull/248">개인 미션 PR</a></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="#레벨2-글쓰기">레벨2 글쓰기</a></td>
+      <td>레벨2까지 나의 성장 여정</td>
+      <td><a href="https://github.com/woowacourse/woowa-writing/pull/881">미션 PR</a></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="#레벨2-파이널-미션">레벨2 파이널 미션</a></td>
+      <td>제한시간 내 AI 사용 없이 나만의 예약 서비스 API 제작</td>
+      <td><a href="https://github.com/woowacourse/lv2-final-mission/pull/14">미션 PR</a></td>
+    </tr>
+  </tbody>
 </table>
 
 ## 방탈출 예약 관리
@@ -65,6 +89,22 @@
 - [XXService를 조회성과 명령성으로 분리](https://github.com/woowacourse/spring-roomescape-waiting/pull/261#discussion_r2100673968)
 - [복잡해지는 요구사항 속 도메인 간 강결합 해소](https://velog.io/@hyeok_1212/%EB%B3%B5%EC%9E%A1%ED%95%B4%EC%A7%80%EB%8A%94-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-%EC%86%8D-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%84-%EA%B0%95%EA%B2%B0%ED%95%A9)
   - 이벤트 발행-수신 구조를 활용한 도메인 간 느슨한 결합
+
+## 방탈출 결제/배포
+
+- 외부 API [Connection Timeout, Read Timeout 설정](https://github.com/woowacourse/spring-roomescape-payment/pull/169#discussion_r2113346611)
+- 예약 [삭제와 취소의 차이](https://github.com/woowacourse/spring-roomescape-payment/pull/248#discussion_r2132387545)
+- [남겨야 할 로그에 대하여](https://github.com/woowacourse/spring-roomescape-payment/pull/248#discussion_r2133995908)
+- [@TransactionalEventListener(AFTER_COMMIT)에서 업데이트가 반영되지 않던 문제 분석](https://github.com/woowacourse/spring-roomescape-payment/pull/248#discussion_r2133849471)
+
+## 레벨2 글쓰기
+
+- 완벽한 논리보다, 실패해도 리스크가 작은 선택을 빠르게 시도해 보는 것이 나에게 도움이 될 것 같다.
+
+## 레벨2 파이널 미션
+
+- 내가 성장한 부분과 부족한 부분을 인지하는 미션이었다.
+- 기획에서 과도한 설계로 인해 정작 완성하지 못한 부분이 있었다.
 
 # Level 1
 
@@ -113,6 +153,13 @@
       <td><a href="https://github.com/woowacourse/java-janggi/pull/112">개인 미션 PR</a></td>
     </tr>
   </tbody>
+  <tbody>
+    <tr>
+      <td><a href="#레벨1-글쓰기">레벨1 글쓰기</a></td>
+      <td>유연함 강화 스터디 회고</td>
+      <td><a href="https://github.com/woowacourse/woowa-writing/pull/745">미션 PR</a></td>
+    </tr>
+  </tbody>
 </table>
 
 - [Level 1 회고](https://velog.io/@hyeok_1212/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BD%94%EC%8A%A4-7%EA%B8%B0-%EB%A0%88%EB%B2%A81-%ED%9A%8C%EA%B3%A0)
@@ -141,6 +188,10 @@
 - [새로운 환경에 대한 안내(실행 방법 등)는 당연하게 있어야 한다.](https://github.com/woowacourse/java-janggi/pull/112#discussion_r2020184410)
 - [특정 DB의 기능을 사용하여 비즈니스적인 문제를 풀지 않아야 한다.](https://github.com/YehyeokBang/TIL/issues/1)
 - 급하게 답변을 남기는 것보다 조금 더 고민하고 일관된 답변을 남기는 것이 좋을 것 같다.
+
+## 레벨1 글쓰기
+
+- 인지하지 못했던 나의 부족한 부분을 인지할 수 있었다.
 
 # 프리코스
 
